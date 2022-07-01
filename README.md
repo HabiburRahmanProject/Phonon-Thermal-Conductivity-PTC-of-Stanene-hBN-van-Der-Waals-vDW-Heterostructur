@@ -1,4 +1,4 @@
 # Phonon-Thermal-Conductivity-PTC-of-Stanene-hBN-van-Der-Waals-vDW-Heterostructure
 This LAMMPS script can be used for quantifying the phonon thermal conductivity (PTC) of nanomaterials using the Muller plathe scheme. Note that prior to implementing the Muller plathe scheme, one might need to do NVE, NVT, and NPT simulations in order to stabilize the pressure and temperature of the system. Once you get the temperature profile as a function of the length of the system T(x), you may need to estimate the slope of the profile to compute the PTC using Fouier's Law of conductivity. Also note that one might need to keep all the files that are the LAMMPS script, force field, and coordinate files in the same directory while running simulations. For more insights, please take a look at the following paper "Phonon thermal conductivity of the stanene/hBN van der Waals heterostructure" https://pubs.rsc.org/en/content/articlelanding/2021/cp/d1cp00343g#!divAbstract 
 
-Also, any unanswered questions can be directed to rahma103@purdue.edu
+Also, any unanswered questions can be directed to imd.habiburrahman@gmail.com
